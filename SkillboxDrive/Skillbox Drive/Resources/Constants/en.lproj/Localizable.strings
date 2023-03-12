@@ -1,0 +1,73 @@
+/* 
+  Localizable.strings
+  Skillbox Drive
+
+  Created by Bandit on 06.02.2023.
+  
+*/
+
+// Onbording Modeule
+"Onbording.Button.Next" = "Further";
+"Onbording.Button.Enter" = "Enter";
+"Onbording.Button.Skip" = "Skip";
+
+"Onbording.First.Label" = "Now all your documents are in one place";
+"Onbording.Second.Label" = "Access to files without internet";
+"Onbording.Third.Label" = "Share your files with others";
+
+// Profile Module
+"Profile.Title.Label" = "Profile";
+"Profile.Label.Occupied" = "occupied";
+"Profile.Label.Free" = "free";
+
+"Profile.Label.UnitBt" = "bytes";
+"Profile.Label.UnitKb" = "kb";
+"Profile.Label.UnitMb" = "mb";
+"Profile.Label.UnitGb" = "gb";
+
+"Profile.Button.Text" = "Published files";
+
+"Profile.Alert.SubText" = "Log out of profile?";
+"Profile.Alert.ButtonTextExit" = "Exit";
+"Profile.Alert.ButtonTextCancel" = "Cancel";
+"Profile.Alert2.TitleText" = "Exit";
+"Profile.Alert2.SubText" = "When you exit, your data will be erased! Are you sure you want to get out?";
+"Profile.Alert2.ButtonTextYes" = "Yes";
+"Profile.Alert2.ButtonTextNo" = "No";
+
+"Profile.Onbording.Label" = "You don't have any published files yet";
+"Profile.OnbordingButton.Text" = "Update";
+
+"Profile.ButtonCell.Text" = "Delete a post";
+"Profile.ButtonCell.Text2" = "Cancel";
+
+
+// Last Files Module
+"Last.Title.Label" = "Last";
+
+"Last.Button.Alert.ShareImageTitle" = "To share";
+"Last.Button.Alert.ButtonTextFile" = "File";
+"Last.Button.Alert.ButtonTextLink" = "By reference";
+"Last.Button.Alert.ButtonTextCancel" = "Cancel";
+
+"Last.Button2.Alert.DeleteImageTitle" = "This file will be deleted";
+"Last.Button2.Alert.ButtonTextDelete" = "Delete a file";
+"Last.Button2.Alert.ButtonTextCancel" = "Cancel";
+
+"Last.Label.TextLabel" = "This file cannot be opened";
+
+"Last.Button3.TitleRename" = "Rename";
+"Last.Button3.ButtonTextDone" = "Done";
+"Last.TextField.Placeholder" = "Please, enter a name.";
+
+"Last.Alert.NoInternetConnection" = "There is no internet connection";
+
+// All files Module
+"AllFiles.Title.Label" = "All files";
+
+"AllFiles.Onbording.Label" = "The directory does not contain files";
+
+// Alert no connection
+"AlertNoInternet.TitleText" = "There is no internet connection";
+"AlertNoInternet.SubTitleText" = "Please check the connection and update the table";
+"AlertNoInternet.ButtonTextCancel" = "Cancel";

@@ -1,0 +1,74 @@
+/* 
+  Localizable.strings
+  Skillbox Drive
+
+  Created by Bandit on 06.02.2023.
+  
+*/
+
+// Onbording Modeule
+"Onbording.Button.Next" = "Далее";
+"Onbording.Button.Enter" = "Войти";
+"Onbording.Button.Skip" = "Пропустить";
+
+"Onbording.First.Label" = "Теперь все ваши документы в одном месте";
+"Onbording.Second.Label" = "Доступ к файлам без интернета";
+"Onbording.Third.Label" = "Делитесь вашими файлами с другими";
+
+// Profile Module
+"Profile.Title.Label" = "Профиль";
+"Profile.Label.Occupied" = "занято";
+"Profile.Label.Free" = "свободно";
+
+"Profile.Label.UnitBt" = "байт";
+"Profile.Label.UnitKb" = "кб";
+"Profile.Label.UnitMb" = "мб";
+"Profile.Label.UnitGb" = "гб";
+
+"Profile.Button.Text" = "Опубликованные файлы";
+
+"Profile.Alert.SubText" = "Выйти из профиля?";
+"Profile.Alert.ButtonTextExit" = "Выйти";
+"Profile.Alert.ButtonTextCancel" = "Отмена";
+"Profile.Alert2.TitleText" = "Выход";
+"Profile.Alert2.SubText" = "При выходе ваши данные будут стерты! Вы уверены, что хотите выйти?";
+"Profile.Alert2.ButtonTextYes" = "Да";
+"Profile.Alert2.ButtonTextNo" = "Нет";
+
+"Profile.Onbording.Label" = "У вас пока нет опубликованных файлов";
+"Profile.OnbordingButton.Text" = "Обновить";
+
+"Profile.ButtonCell.Text" = "Удалить публикацию";
+"Profile.ButtonCell.Text2" = "Отмена";
+
+
+// Last Files Module
+"Last.Title.Label" = "Последние";
+
+"Last.Button.Alert.ShareImageTitle" = "Поделиться";
+"Last.Button.Alert.ButtonTextFile" = "Файлом";
+"Last.Button.Alert.ButtonTextLink" = "Ссылкой";
+"Last.Button.Alert.ButtonTextCancel" = "Отмена";
+
+"Last.Button2.Alert.DeleteImageTitle" = "Данный файл будет удален";
+"Last.Button2.Alert.ButtonTextDelete" = "Удалить файл";
+"Last.Button2.Alert.ButtonTextCancel" = "Отмена";
+
+"Last.Label.TextLabel" = "Данный файл невозможно открыть";
+
+"Last.Button3.TitleRename" = "Переименовать";
+"Last.Button3.ButtonTextDone" = "Готово";
+"Last.TextField.Placeholder" = "Пожалуйста, введите название.";
+
+"Last.Alert.NoInternetConnection" = "Отсутствует подключение к интернету";
+
+// All files Module
+"AllFiles.Title.Label" = "Все файлы";
+
+"AllFiles.Onbording.Label" = "Директория не содержит файлов";
+
+// Alert no connection
+"AlertNoInternet.TitleText" = "Отсутствует подключение к интернету";
+"AlertNoInternet.SubTitleText" = "Проверьте пожалуйста подключение и обновите таблицу";
+"AlertNoInternet.ButtonTextCancel" = "Отмена";
+

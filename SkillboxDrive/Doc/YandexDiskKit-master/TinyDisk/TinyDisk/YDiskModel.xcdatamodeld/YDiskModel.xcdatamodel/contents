@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6251" systemVersion="14A379a" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Resource" representedClassName="SwiftDiskUIKit.PersistentResource" syncable="YES">
+        <attribute name="cd_path" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="cd_type" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="created" attributeType="Date" syncable="YES"/>
+        <attribute name="mark" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="md5" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mime_type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="modified" attributeType="Date" syncable="YES"/>
+        <attribute name="name" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="origin_path" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="parent_path" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="preview" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="public_key" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="public_url" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="size" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <compoundIndexes>
+            <compoundIndex>
+                <index value="cd_path"/>
+            </compoundIndex>
+            <compoundIndex>
+                <index value="parent_path"/>
+            </compoundIndex>
+            <compoundIndex>
+                <index value="name"/>
+            </compoundIndex>
+        </compoundIndexes>
+    </entity>
+    <elements>
+        <element name="Resource" positionX="-54" positionY="-9" width="128" height="255"/>
+    </elements>
+</model>

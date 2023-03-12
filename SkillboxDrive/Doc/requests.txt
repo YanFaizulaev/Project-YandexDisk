@@ -1,0 +1,54 @@
+!!!! Файл содержит ключи, будьте внимательны и передавайте файл только по защищенным каналам !!!
+
+Запрос на oauth code (https://yandex.ru/dev/id/doc/dg/oauth/reference/web-client.html)
+[…] – необязательные поля
+https://oauth.yandex.ru/authorize?
+response_type=code
+& client_id=e0abaa5dd5c741319f1dda58af34f8b0
+& redirect_uri=https%3A%2F%2Fyxe0abaa5dd5c741319f1dda58af34f8b0.oauth.yandex.ru%2Fauth%2Ffinish%3Fplatform%3Dios
+[& device_id=<идентификатор устройства>]
+[& device_name=<имя устройства>]
+[& login_hint=<имя пользователя или электронный адрес>]
+[& scope=<запрашиваемые необходимые права>]
+[& optional_scope=<запрашиваемые опциональные права>]
+[& force_confirm=yes]
+[& state=<произвольная строка>]
+[& display=popup]
+
+
+Запрос на token(https://yandex.ru/dev/id/doc/dg/oauth/reference/auto-code-client.html#auto-code-client__get-token)
+POST /token HTTP/1.1
+Host: oauth.yandex.ru
+Content-type: application/x-www-form-urlencoded
+Content-Length: <длина тела запроса>
+[Authorization: Basic <закодированная строка client_id:client_secret>]
+
+grant_type=authorization_code
+& code=<код подтверждения>
+& client_id=e0abaa5dd5c741319f1dda58af34f8b0
+& client_secret=00e6b20981d2434ead40ab8c39f6b505
+[& device_id=<идентификатор устройства>]
+[& device_name=<имя устройства>]
+
+(Необходимо указать или заголовок Authorization, или параметры client_id и client_secret)
+
+
+Обновить token (https://yandex.ru/dev/id/doc/dg/oauth/reference/refresh-client.html#refresh-client__get-token)
+POST /token HTTP/1.1
+Host: oauth.yandex.ru
+Content-type: application/x-www-form-urlencoded
+Content-Length: <длина тела запроса>
+[Authorization: Basic <закодированная строка client_id:client_secret>]
+
+grant_type=refresh_token
+ & refresh_token=<refresh_token>
+[& client_id=e0abaa5dd5c741319f1dda58af34f8b0]
+[& client_secret=00e6b20981d2434ead40ab8c39f6b505]
+
+
+Запрос данных о пользователе (https://yandex.ru/dev/id/doc/dg/api-id/reference/request.html)
+GET https://login.yandex.ru/info?
+  format=json | xml | jwt
+
+
+Authorization: OAuth <OAuth-токен>
