@@ -113,7 +113,7 @@ extension SecondViewingController: UITableViewDataSource, UITableViewDelegate {
             let vc = PresentViewController()
             vc.modalPresentationStyle = .fullScreen
             vc.modalTransitionStyle = .crossDissolve
-//            vc.file = file
+            vc.file = file
             self.present(vc, animated: true, completion: nil)
         }
     }
